@@ -1,2 +1,5 @@
+DEFINE_NEAR_METHOD(create_new_content)
+DEFINE_NEAR_METHOD(create_new_user)
 DEFINE_NEAR_METHOD(get_greeting)
-DEFINE_NEAR_METHOD(set_greeting)
+DEFINE_NEAR_METHOD(get_users)
+DEFINE_NEAR_METHOD(handle_exists)

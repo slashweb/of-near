@@ -12,8 +12,8 @@ class User {
   }
 
   @view({})
-  handle_exists({ handle}: { handle: string} ): Boolean {
-      return this.listOfUsers.toArray().filter(user => user.handle === handle).length > 0
+  handle_exists({handle}: { handle: string }): Boolean {
+    return this.listOfUsers.toArray().filter(user => user.handle === handle).length > 0
   }
 
   @call({}) // This method changes the state, for which it cost gas
