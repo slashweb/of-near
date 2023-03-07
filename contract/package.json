@@ -6,7 +6,7 @@
   "scripts": {
     "build": "./build.sh",
     "deploy": "./deploy.sh",
-    "test": "echo use integration-tests"
+    "test": "npm run build && npm run deploy"
   },
   "dependencies": {
     "near-cli": "^3.4.0",

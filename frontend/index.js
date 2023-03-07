@@ -19,9 +19,9 @@ window.onload = async () => {
     const isSignedIn = await wallet.startUp()
 
     root.render(
-        // <App isSignedIn={isSignedIn} contractId={CONTRACT_ADDRESS} wallet={wallet} />
-        <ChakraProvider>
-            <Home/>
-        </ChakraProvider>
+        <App isSignedIn={isSignedIn} contractId={CONTRACT_ADDRESS} wallet={wallet} />
+        // <ChakraProvider>
+        //     <Home/>
+        // </ChakraProvider>
     );
 }
