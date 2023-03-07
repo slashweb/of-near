@@ -8,6 +8,7 @@ import {
   useBreakpointValue,
 } from '@chakra-ui/react';
 
+import {HashRouter as Router, Routes, Route, Link} from "react-router-dom"
 export default function SplitScreen() {
   return (
     <Stack minH={'100vh'} direction={{ base: 'column', md: 'row' }}>
